@@ -1,0 +1,368 @@
+body{
+    margin: 0px;
+    background-color: #edf3ec;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.b_white{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.activenav{
+    font-weight: 900;
+    border-bottom: 2px solid red;
+}
+
+ul li {
+    font-weight: 900;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Lato',sans-serif;
+    color: whitesmoke;
+    text-shadow: -1px -1px white;
+    background-color: red;
+    padding: 0px 15px;
+    border-radius: 0.5rem;
+}
+
+.btn-prev{
+    width: 3rem;
+    height: 19rem;
+    margin-top: 6.5rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.btn-next{
+        width: 3rem;
+        height: 19rem;
+        margin-top: 6.5rem;
+        justify-content: center;
+        text-align: center;
+        border-radius: 1rem;
+}
+
+/*Home Product Card*/
+.Heading_Title p{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-left: 1.2rem;
+    text-shadow: 0px 0px 12px black;
+    border-bottom: 1px solid rgb(184, 182, 182);
+}
+
+.cardbody{
+    border:1px solid rgb(184, 182, 182);
+    width: 15rem;
+    height: 22rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px black;
+    margin-bottom: 1.3rem;
+}
+
+.cardbody:hover{
+    box-shadow: 0px 0px 12px  red;
+}
+.imagebody{
+    width: 12rem;
+    height: 9rem;
+    margin: 15px 2px;
+}
+
+.card_title{
+    width: 14.5rem;
+    margin: 0px 2px;
+    padding: 5px 2px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+
+.card_title p{
+    height: 5rem;
+    font-size: 0.8rem;
+    font-size-adjust: inherit;
+    font-weight: 700;
+    color: indigo;
+    margin: 0px 10px;
+    padding: 0px 5px;
+    border-bottom: 2px solid rgb(184, 182, 182);
+}
+
+.card_content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 700;
+    color: green;
+    padding: 2px 2px;
+}
+
+.card_content p span{
+    color: orangered;
+}
+.addtocartbtn{
+    font-size: 1rem;
+    font-weight: bold;
+    color: indigo;
+    width: 13rem;
+    height: 2rem;
+    border: 2px solid indigo;
+    border-radius: 0.5rem;
+}
+
+.addtocartbtn:hover{
+    box-shadow: 0px 0px 12px indigo;
+    background-color: rgb(193, 165, 214);
+    color: ivory;
+    text-shadow: 0px 0px 10px red;
+}
+
+/*CATEGORY-CARD-BODY*/
+.categorybody{
+    background-color:rgb(240, 215, 219);
+    width:15rem;
+    height:13rem; 
+    border-radius:5rem;
+    box-shadow: 0px 3px 12px rgb(207, 53, 79);
+}
+
+/*BAG Styling*/
+.cart_div{
+    width: 100%;
+    height: 90vh;
+    margin: 5px 5px;
+    overflow: scroll !important;
+
+}
+
+.Bag{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px -5px  25px green; */
+    margin: 4px 4px;
+}
+.bag_id{
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    /* border:2px solid red; */
+}
+.bag_id p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 2rem;
+    width: 2.5rem;
+}
+
+.bag_image{
+    /* border: 1px solid green;  */
+    padding: 1px 1px;
+    margin: 3px 3px;
+    border-radius: 1rem;
+}
+
+.bag_product{
+    width: 7rem;
+    height: 7rem;
+    /* border-radius: 1rem; */
+    padding: 5px 5px;
+    margin: 3px 3px;
+}
+.bag_title{
+    width: 25rem;
+    max-width: 25rem;
+}
+
+.bag_title p{
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.btndiv{
+    padding: 1rem;
+    align-items: center;
+    width: 12rem;
+}
+
+.bag_qty{
+    margin: 0rem 0.5rem;
+    font-size: 1.2rem;
+    width: 2.5rem;
+    margin-top: 0.2rem;
+
+}
+.btnince{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border-color: green;
+    background-color: rgb(209, 235, 209);
+    font-weight: bolder;
+    font-size: 1.2rem; 
+    color: green; 
+}
+
+.btnince:hover{
+    box-shadow: 0px 0px 15px green ;
+    background-color: whitesmoke;
+}
+
+.btndecr{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border-color: rgb(248, 20, 4);
+    background-color: rgb(236, 200, 200);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: red;  
+}
+
+.btndecr:hover{
+    box-shadow: 0px 0px 15px red ;
+    background-color: whitesmoke;
+}
+
+.bag_price{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+}
+
+.bag_price p{
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.bag_total{
+    display: flex;
+    align-items: center;
+    width: 7rem;
+}
+
+.bag_total p{
+    margin: 1rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.subtotal_div{
+    display: flex;
+    justify-content: end;
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    /* border-radius: 1rem; */
+    background-color: rgb(224, 184, 184);
+}
+
+.subtotal{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: tomato;
+    margin: 1rem 5.5rem;
+}
+
+.subtotal span{
+    color: green;
+    margin-left: 7.5rem;
+}
+
+.cartHeader p{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+/*LOGIN*/
+.login_div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width:25%;
+    height: 70%;
+    margin: 5%  40%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 50px rgb(233, 176, 176); 
+}
+
+.login_div:hover{
+    box-shadow: 0px 0px 50px rgb(224, 92, 92); 
+}
+
+.login_input{
+    /* margin: 1rem 0rem; */
+    /* border: 2px solid orange; */
+    width: 20rem;
+    height: 9rem;
+    text-align:  left;
+}
+
+.btn-submit{
+    width: 20rem;
+}
+
+.login_div p{
+    font-size:2rem;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(236, 172, 149);
+    width: 100%;
+    color: rgb(236, 152, 122);
+}
+
+.product_detail_container{
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    /* background-color: green; */
+    /* max-width: 80rem; */
+}
+
+.details_image{
+    max-width: 50%;
+    border-radius: 5%;
+    border-radius: 15px;
+}
+
+.detail_image{
+    width: 90%;
+    height: 95%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8%;
+    /* border: 2px solid rgb(207, 53, 79); */
+    box-shadow: 0px 0px 20px rgb(224, 92, 92)
+}
+
+.product_details{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: indigo;
+    /* border: 2px solid rgb(207, 53, 79); */
+    box-shadow: 0px 0px 20px rgb(224, 92, 92);
+    border-radius: 15px;
+}
+
+p{
+    font-weight: bolder;
+}
+
+span{
+    color: rgb(224, 80, 80);
+}
